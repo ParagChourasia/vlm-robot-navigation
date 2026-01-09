@@ -1,0 +1,10 @@
+# Request
+string question
+bool use_latest_image
+builtin_interfaces/Time image_timestamp
+---
+# Response
+string answer
+float32 confidence
+bool success
+string error_message

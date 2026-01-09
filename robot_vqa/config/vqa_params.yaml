@@ -1,0 +1,17 @@
+# VQA Node Configuration Parameters
+
+vqa_node:
+  ros__parameters:
+    # Camera topic to subscribe to
+    camera_topic: "/camera/image_raw"
+    
+    # BLIP-2 model configuration
+    model_name: "Salesforce/blip2-opt-2.7b"
+    # Options: auto (detect GPU), cpu, cuda
+    device: "auto"
+    
+    # Image buffer settings
+    image_buffer_size: 10
+    
+    # Service name
+    service_name: "ask_question"

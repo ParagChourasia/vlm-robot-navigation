@@ -1,0 +1,30 @@
+# ROS 2 Build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache (optional - uncomment if you don't want to track model downloads)
+# .cache/
+# *.pt
+# *.pth
